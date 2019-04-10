@@ -2,7 +2,7 @@
     $errors = "";
 
     //conectar ao banco
-    $db = mysqli_connect('localhost', 'root', 'gela9914', 'todo');
+    $db = mysqli_connect('localhost', 'root', '', 'todo');
 
     if (isset($_POST['submit'])) {
         $task = $_POST['task'];
