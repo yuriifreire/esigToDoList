@@ -57,7 +57,7 @@
         <?php $i = 1; while ($row = mysqli_fetch_array($tasks)) { ?>
             <tr>
                 <td><?php echo $i; ?></td>
-                <td class="task"><?php echo $row['$task']; ?></td>
+                <td class="task"><?php echo $row['task']; ?></td>
                 <td></td>   <!-- Não sei o porque, mas sem colocar esse td, o X não fica alinhado  -->
                 <td class="delete">
                     <a href="index.php?del_task=<?php echo $row['id']; ?>">X</a>
